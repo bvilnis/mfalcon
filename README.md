@@ -1,2 +1,2 @@
 # mfalcon-infrastructure
-Infrastructure code for Millennium Falcon project.
+Infrastructure, configuration, and deployments for Millennium Falcon project.
