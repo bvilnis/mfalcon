@@ -45,14 +45,14 @@ resource "digitalocean_droplet" "worker" {
 }
 
 # Firewall
-resource "digitalocean_firewall" "firewall" {
-  name = "${var.cluster_name}-firewall"
+# resource "digitalocean_firewall" "firewall" {
+#   name = "${var.cluster_name}-firewall"
 
-  inbound_rule {
-    protocol = "tcp"
-    port_range = "22"
-  }
-}
+#   inbound_rule {
+#     protocol = "tcp"
+#     port_range = "22"
+#   }
+# }
 
 # resource "digitalocean_loadbalancer" "load_balancer" {
 #   name = "${var.cluster_name}-lb"
